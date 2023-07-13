@@ -1,10 +1,10 @@
 use bevy::{prelude::*, window::PrimaryWindow};
 
 use super::components::Player;
-use crate::enemy::{components::*, ENEMY_SIZE};
 use crate::events::GameOver;
-use crate::score::resources::*;
-use crate::star::{components::Star, STAR_SIZE};
+use crate::game::enemy::{components::*, ENEMY_SIZE};
+use crate::game::score::resources::*;
+use crate::game::star::{components::Star, STAR_SIZE};
 
 pub const PLAYER_SPEED: f32 = 500.0;
 pub const PLAYER_SIZE: f32 = 64.0;
